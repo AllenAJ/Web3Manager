@@ -1,0 +1,155 @@
+.header{
+  height: 200%;
+  width: 100%;
+  background-color : #353A40;
+  padding-top: 50px;
+}
+
+
+.card-container{
+  height: 300px;
+  width: 300px;
+  box-shadow: 0px 3px 50px #A5A5A5;
+}
+
+.card-wrapper{
+  background-color: #2C3137;
+  width: 348px;
+  border-radius: 5px;
+  text-align: left;
+  margin: 15px auto;
+  box-shadow: 1px 1px 5px rgb(0 0 0 / 10%);
+}
+
+.card-top{
+  width: 100%;
+  height: 2%;
+}
+
+.task-holder{
+  width: 100%;
+  height: 98%;
+  padding: 10px 10px;
+  display : flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.card-header{
+  font-size: 18px;
+  color: #8860FF;
+  font-weight: 500;
+  
+}
+
+.task-container{
+  position: relative;
+  width: 85%;
+  margin: 0 auto 30px auto;
+  display: flex;
+  background-color : #0000;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+/******/
+
+.thumbnail {
+  width: 67px;
+  height: 67px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+  border-radius: 100%;
+  box-shadow: shadow;
+}
+
+
+
+.name {
+  color: #E4E6EB;
+  font-size: 17x;
+  text-align: center;
+}
+
+.title {
+  color: #6B727C;
+  font-size: 12px;
+  text-align: center;
+}
+
+.description {
+  color: #C9C2CD;
+  position: relative;
+  width: 90%;
+  font-size: 14px;
+  margin: 0px 20px;
+  font-size: 14px;
+  font-weight: 300;
+  text-align: left;
+
+
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 300px;
+  border-left:1em solid transparent;
+  border-right:1em solid transparent;
+  text-overflow: ellipsis;
+  margin-bottom: 1.3em;
+}
+  .btncontain{
+    margin: 15px auto;
+    position: relative;
+    width: 100%;
+    margin: 0 auto 30px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+ .btnround{
+  display: inline-block;
+  text-decoration: none;
+  background: #494F59;
+  color: #FFF;
+  width: 26px;
+  height: 26px;
+  line-height: 120px;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  overflow: hidden;
+  transition: .4s;
+}
+
+.btnround:hover{
+    background: #668ad8;
+}
+
+.social-icons {
+  margin: 0 auto 30px auto;
+  width: 100px;
+  display: flex;
+  margin-top: 1.2em;
+  justify-content: space-between;
+
+}
+
+.social-links a{
+  
+  text-align: center;
+float: left;
+width: 26px;
+height: 26px;
+border: 1px solid #909090;
+border-radius: 100%;
+margin-right: 7px; /*space between*/
+
+} 
+.social-links a i{
+font-size: 20px;
+  line-height: 26px;
+color: #909090;
+}
